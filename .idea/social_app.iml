@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="django" name="Django">
+      <configuration>
+        <option name="rootFolder" value="$MODULE_DIR$" />
+        <option name="settingsModule" value="social_app/settings.py" />
+        <option name="manageScript" value="$MODULE_DIR$/manage.py" />
+        <option name="environment" value="&lt;map/&gt;" />
+        <option name="doNotUseTestRunner" value="false" />
+        <option name="trackFilePattern" value="migrations" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../venv/lib/python2.7/site-packages/django_messages" />
+    <content url="file://$MODULE_DIR$/../virvenv/lib/python3.5/site-packages/social_django" />
+    <orderEntry type="jdk" jdkName="Python 3.5 (virvenv)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Django" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/templates/social-app" />
+        <option value="$MODULE_DIR$/templates" />
+        <option value="$MODULE_DIR$/users/templates" />
+        <option value="$MODULE_DIR$/users/templates" />
+        <option value="$MODULE_DIR$/users/templates/users" />
+        <option value="$MODULE_DIR$/users/templates/registration" />
+      </list>
+    </option>
+  </component>
+</module>

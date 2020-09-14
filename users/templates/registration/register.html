@@ -1,0 +1,12 @@
+{% extends 'index/base.html' %}
+{% block content %}
+    <h2>Register now</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Register">
+
+    </form>
+    <a href="{% url 'login' %}">back to LOGIN</a>
+{% endblock %}
