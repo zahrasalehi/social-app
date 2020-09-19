@@ -8,8 +8,10 @@ Hello, {{ user.username|default:'Guest' }}!
         <a href="{% url 'logout' %}">Logout</a>
         <a href="{% url 'password_change' %}">Change password</a>
         <a href="{% url 'messages_inbox' %}">Messaage Inbox</a>
+        <a href="{% url 'create_post' %}">Create a New Post</a>
     {% else %}
         <a href="{% url 'login' %}">Login</a>
+        <a href="{% url 'posts' %}">All Posts</a>
     {% endif %}
 </div>
 

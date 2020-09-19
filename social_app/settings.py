@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django_messages',
     'msgs',
     'users',
+    'blog',
 ]
 
 SITE_ID = 1

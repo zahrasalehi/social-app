@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% load i18n %}
+
+    {% for post in posts %}
+
+        <p>Published in : {{ post.published_date }}</p>
+        <p>Written By : {{ post.author }}</p>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.text }}</p>
+    {% endfor %}
+{% endblock %}
