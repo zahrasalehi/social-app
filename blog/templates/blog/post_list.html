@@ -7,7 +7,7 @@
 
         <p>Published in : {{ post.published_date }}</p>
         <p>Written By : {{ post.author }}</p>
-        <h2><a href="{% url 'post_detail' %}">{{ post.title }}</a></h2>
+        <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
         <p>{{ post.text }}</p>
     {% endfor %}
 {% endblock %}
