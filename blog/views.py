@@ -5,11 +5,19 @@ from django.utils import timezone
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
 
-from .models import Post
+from .models import Post, Category
 from .forms import CostumPostCreationForm
 
 
 # Create your views here.
+def category_list(request):
+    categories = Category.objects.all()
+    return render(request, 'blog/category_list.html', {'categories': categories})
+
+
+def category_detail(request, pk):
+    category = Category.objects.get(pk=pk)
+    return render(request, 'blog/category_detail.html', {'category': category})
 
 
 def posts(request):
@@ -39,5 +47,3 @@ def create_posts(request):
 def post_detial(request, pk):
     post = Post.objects.get(pk=pk)
     return render(request, 'blog/post_detail.html', {'post': post})
-
-
