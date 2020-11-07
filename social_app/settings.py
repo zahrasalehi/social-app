@@ -14,7 +14,7 @@ import os
 
 # import django
 
-SECRET_KEY = 'y_iq3=83yt$cjwrhle96vto4(l&362ci#6il$$2x$ri)o6zb$h'
+SECRET_KEY = '(your secrect key <3)'
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
